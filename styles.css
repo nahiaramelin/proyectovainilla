@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(219, 219, 219);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    position: relative;
+    left: 35%;
+    top: 45px;
+}
+nav{
+    margin: 15%;
+}
+ul{
+    list-style: none;
+    position: relative;
+    left: 15%;
+    bottom: 20px;
+    transition: 2s;
+}
+.memory,
+.grocery{
+    position: relative;
+    left: 120px;
+    font-size: 30px;
+}
+.memory{
+    position: relative;
+    top: -35px;
+    left: 190px;
+}
+ul :hover{
+    transform: scale(5);
+}
